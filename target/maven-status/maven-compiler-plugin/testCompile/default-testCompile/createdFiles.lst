@@ -1,0 +1,9 @@
+pages\PageChat.class
+pages\PageLogin.class
+pages\PageProduct.class
+funcs\Chat.class
+funcs\Login.class
+testCases\TestScanarios.class
+funcs\Produt.class
+Util\Data.class
+Apps\App.class

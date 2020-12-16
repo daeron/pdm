@@ -1,0 +1,11 @@
+{
+    "loginError": {
+        "user": "gustavo.wy@gmail.com",
+        "pass": "password"
+    },
+    "chat": {
+        "name": "gustavo",
+        "phone": "123456789",
+        "message": "hi my name is"
+    }
+}
