@@ -1,19 +1,10 @@
 package Apps;
 
-import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.logging.LoggingPreferences;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
-
-import static com.codeborne.selenide.Selenide.open;
-
 import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.logging.Level;
 
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.FileDownloadMode;
-import com.codeborne.selenide.WebDriverRunner;
 
 public class App {
 

@@ -4,11 +4,11 @@ import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.close;
 import java.io.FileNotFoundException;
 import java.net.MalformedURLException;
-import java.util.function.ToDoubleBiFunction;
-
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.Rule;
 import org.junit.Test;
+import com.codeborne.selenide.junit.ScreenShooter;
 import Apps.App;
 import Util.Data;
 import funcs.Chat;
@@ -23,6 +23,8 @@ public class TestScanarios {
 	 */
 	
 	private String url = "https://www.podium.com/";
+	@Rule
+	public ScreenShooter makeScreenshotOnFailure = ScreenShooter.failedTests().succeededTests();
 
 	/**
 	 * Method responsible to call the chrome
